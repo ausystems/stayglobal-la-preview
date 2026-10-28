@@ -1,0 +1,298 @@
+{
+ "schema": "sg-wardrobe-registry/1",
+ "generated": "2026-10-27T20:18:14-0400",
+ "assetBase": "./",
+ "character": {
+  "id": "sg_character_base",
+  "manifest": "character/manifest.json",
+  "lod0": "character/sg_character_base_lod0.glb?v=98043bbd5046",
+  "lod1": "character/sg_character_base_lod1.glb?v=b466ac62a233",
+  "lod2": "character/sg_character_base_lod2.glb?v=71f4d9f8620f",
+  "skeleton": {
+   "id": "sg_skeleton_v1",
+   "jointCount": 53,
+   "jointNamesHash": "939a67368eab90aa9593f96dd6e41ec7fb638f236d4c704a750de1424e90e205"
+  },
+  "body": {
+   "maskAttribute": "_SG_REGION",
+   "regionCount": 2208,
+   "regionTableHash": "6622a4c1c98dd750d6e7304bd077910e55c5d49145d89768630a42559e4bda35",
+   "bodyNode": "SG_BODY"
+  }
+ },
+ "slots": [
+  {
+   "id": "top",
+   "label": "Top",
+   "exclusive": true,
+   "maxActive": 1,
+   "layer": 2,
+   "order": 1
+  },
+  {
+   "id": "bottom",
+   "label": "Bottom",
+   "exclusive": true,
+   "maxActive": 1,
+   "layer": 1,
+   "order": 2
+  },
+  {
+   "id": "shoes",
+   "label": "Shoes",
+   "exclusive": true,
+   "maxActive": 1,
+   "layer": 0,
+   "order": 3
+  },
+  {
+   "id": "accessory",
+   "label": "Accessory",
+   "exclusive": true,
+   "maxActive": 1,
+   "layer": 3,
+   "order": 4
+  }
+ ],
+ "defaultOutfit": {
+  "top": "sg_top_001_white",
+  "bottom": "sg_bottom_001_black",
+  "shoes": "sg_shoes_001"
+ },
+ "garments": [
+  {
+   "id": "sg_top_001_white",
+   "name": null,
+   "label": "Top 001 white",
+   "slot": "top",
+   "asset": "sg_top_001_white/manifest.json",
+   "lod0": "sg_top_001_white/sg_top_001_white_lod0.glb?v=4963e49c1aef",
+   "lod1": "sg_top_001_white/sg_top_001_white_lod1.glb?v=8d0f1aa49778",
+   "lod2": "sg_top_001_white/sg_top_001_white_lod2.glb?v=6bd984593f6c",
+   "bodyMask": {
+    "encoding": "bitset-base64",
+    "regionCount": 2208,
+    "lod0": "AADv78fH////fP//////85Ob////gwAAGBgeHh4KAD+/fz//////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEDDw8PCgAPn7//H/////+QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHh8OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8PHwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "lod1": "AETv78eD/v//fP/v//67/5sY////gwAAGA4eHhgKAD+//z///v/xAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMCDw8DCgAPn7//v//v8f8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHhwOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8HDwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "lod2": "AADvx8eD/v//OP////6r3rqb/rr/gwAACBYaHhgKAD+//z+//LVuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBCw8DCgAPn7//v7flvsowEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhwOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsHDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA",
+    "counts": {
+     "lod0": 318,
+     "lod1": 302,
+     "lod2": 275
+    }
+   },
+   "thumbnail": "sg_top_001_white/thumbnail.webp?v=17ea14a8e93d",
+   "sku": null,
+   "shopifyProductId": null,
+   "shopifyVariantId": null,
+   "available": true,
+   "default": true,
+   "sortOrder": 10,
+   "bytes": {
+    "lod0": 5372104,
+    "lod1": 1563632,
+    "lod2": 1116976
+   },
+   "triangles": {
+    "lod0": 24896,
+    "lod1": 7418,
+    "lod2": 3709
+   }
+  },
+  {
+   "id": "sg_top_002_black",
+   "name": null,
+   "label": "Top 002 black",
+   "slot": "top",
+   "asset": "sg_top_002_black/manifest.json",
+   "lod0": "sg_top_002_black/sg_top_002_black_lod0.glb?v=cf7fddaa8e55",
+   "lod1": "sg_top_002_black/sg_top_002_black_lod1.glb?v=8605ea9b8273",
+   "lod2": "sg_top_002_black/sg_top_002_black_lod2.glb?v=19365362ced5",
+   "bodyMask": {
+    "encoding": "bitset-base64",
+    "regionCount": 2208,
+    "lod0": "AABs7sfH////fP//////+5Ob////gwAAGBgeHh4KAD+/fz////PhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEDDw8PCgAPn7//n///8fAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "lod1": "AERs78eD/v//fP/v//67/5sY////gwAAGA4eHhgKAD+//z///vPhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMCDw8DCgAPn7//v//v8fEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "lod2": "AABsx8eD/v//OP////6r3rqb/rr/gwAACBYaHhgKAD+//z+//LVgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBCw8DCgAPn7//v7flssAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA",
+    "counts": {
+     "lod0": 279,
+     "lod1": 273,
+     "lod2": 247
+    }
+   },
+   "thumbnail": "sg_top_002_black/thumbnail.webp?v=f02aef180580",
+   "sku": null,
+   "shopifyProductId": null,
+   "shopifyVariantId": null,
+   "available": true,
+   "default": false,
+   "sortOrder": 20,
+   "bytes": {
+    "lod0": 8800784,
+    "lod1": 2702972,
+    "lod2": 1557744
+   },
+   "triangles": {
+    "lod0": 24992,
+    "lod1": 7406,
+    "lod2": 3703
+   }
+  },
+  {
+   "id": "sg_bottom_001_black",
+   "name": null,
+   "label": "Bottom 001 black",
+   "slot": "bottom",
+   "asset": "sg_bottom_001_black/manifest.json",
+   "lod0": "sg_bottom_001_black/sg_bottom_001_black_lod0.glb?v=c1d1dbc58672",
+   "lod1": "sg_bottom_001_black/sg_bottom_001_black_lod1.glb?v=3b49af409f2a",
+   "lod2": "sg_bottom_001_black/sg_bottom_001_black_lod2.glb?v=f54b278c3cb3",
+   "bodyMask": {
+    "encoding": "bitset-base64",
+    "regionCount": 2208,
+    "lod0": "AMeDg4MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHh+/v/////////////////////////6P///////9///5/w/5/xj////////xABAQAAAAAAAAAAAA8PH7+/////////////////////////7D//////9///8//+E//zD/////////JAAQEAAAAAAAAAAA",
+    "lod1": "ANeDg4MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHhwfv/////H//rN+4T/hv+D/v/f///6Pj///DfId8A/5AA/5ABj/AP8A//vPQDgQEAAAAAAAAAAA8HDx+////x///pv8D/kP+w7/+9////7D4///YZ5xHuE/AOE/ADD/AP8A/7//ZigQEAAAAAAAAAAA",
+    "lod2": "AJODg4MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhwft+nv+Z2cnnse4T+luOV/n/f7//6Hj/v/DbIdwB/pAA9GADmDAP+A/vvvABgQEAAAAAAAAAAAsHDx2y/vP3Ny8r3wD/lLOk/989+///7D47//YZpxBvEvAOHEADmDAP8C/r//ICAQEAAAAAAAAAEA",
+    "counts": {
+     "lod0": 680,
+     "lod1": 518,
+     "lod2": 453
+    }
+   },
+   "thumbnail": "sg_bottom_001_black/thumbnail.webp?v=e6804efd2003",
+   "sku": null,
+   "shopifyProductId": null,
+   "shopifyVariantId": null,
+   "available": true,
+   "default": true,
+   "sortOrder": 10,
+   "bytes": {
+    "lod0": 827896,
+    "lod1": 302876,
+    "lod2": 266612
+   },
+   "triangles": {
+    "lod0": 7592,
+    "lod1": 2336,
+    "lod2": 1167
+   }
+  },
+  {
+   "id": "sg_bottom_002_stone",
+   "name": null,
+   "label": "Bottom 002 stone",
+   "slot": "bottom",
+   "asset": "sg_bottom_002_stone/manifest.json",
+   "lod0": "sg_bottom_002_stone/sg_bottom_002_stone_lod0.glb?v=ecb902e2d015",
+   "lod1": "sg_bottom_002_stone/sg_bottom_002_stone_lod1.glb?v=1c3ceb1ae0b5",
+   "lod2": "sg_bottom_002_stone/sg_bottom_002_stone_lod2.glb?v=11d3b6755f6e",
+   "bodyMask": {
+    "encoding": "bitset-base64",
+    "regionCount": 2208,
+    "lod0": "AMeDg4MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHh+/v/////////////////////////6P///////9///5/w/5/xj////////xABAQAAAAAAAAAAAA8PH7+/////////////////////////7D//////9///8//+E//zD/////////JAAQEAAAAAAAAAAA",
+    "lod1": "ANeDg4MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHhwfv/////H//rN+4T/hv+D/v/f///6Pj///DfId8A/5AA/5ABj/AP8A//vPQDgQEAAAAAAAAAAA8HDx+////x///pv8D/kP+w7/+9////7D4///YZ5xHuE/AOE/ADD/AP8A/7//ZigQEAAAAAAAAAAA",
+    "lod2": "AJODg4MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhwft+nv+Z2cnnse4T+luOV/n/f7//6Hj/v/DbIdwB/pAA9GADmDAP+A/vvvABgQEAAAAAAAAAAAsHDx2y/vP3Ny8r3wD/lLOk/989+///7D47//YZpxBvEvAOHEADmDAP8C/r//ICAQEAAAAAAAAAEA",
+    "counts": {
+     "lod0": 680,
+     "lod1": 518,
+     "lod2": 453
+    }
+   },
+   "thumbnail": "sg_bottom_002_stone/thumbnail.webp?v=4e252a727d86",
+   "sku": null,
+   "shopifyProductId": null,
+   "shopifyVariantId": null,
+   "available": true,
+   "default": false,
+   "sortOrder": 20,
+   "bytes": {
+    "lod0": 827888,
+    "lod1": 302868,
+    "lod2": 266604
+   },
+   "triangles": {
+    "lod0": 7592,
+    "lod1": 2336,
+    "lod2": 1167
+   }
+  },
+  {
+   "id": "sg_bottom_003_navy",
+   "name": null,
+   "label": "Bottom 003 navy",
+   "slot": "bottom",
+   "asset": "sg_bottom_003_navy/manifest.json",
+   "lod0": "sg_bottom_003_navy/sg_bottom_003_navy_lod0.glb?v=16cc60730d53",
+   "lod1": "sg_bottom_003_navy/sg_bottom_003_navy_lod1.glb?v=273fdd0d0a39",
+   "lod2": "sg_bottom_003_navy/sg_bottom_003_navy_lod2.glb?v=415e7667131f",
+   "bodyMask": {
+    "encoding": "bitset-base64",
+    "regionCount": 2208,
+    "lod0": "AMeDg4MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHh+/v/////////////////////////6P///////9///5/w/5/xj////////xABAQAAAAAAAAAAAA8PH7+/////////////////////////7D//////9///8//+E//zD/////////JAAQEAAAAAAAAAAA",
+    "lod1": "ANeDg4MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHhwfv/////H//rN+4T/hv+D/v/f///6Pj///DfId8A/5AA/5ABj/AP8A//vPQDgQEAAAAAAAAAAA8HDx+////x///pv8D/kP+w7/+9////7D4///YZ5xHuE/AOE/ADD/AP8A/7//ZigQEAAAAAAAAAAA",
+    "lod2": "AJODg4MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhwft+nv+Z2cnnse4T+luOV/n/f7//6Hj/v/DbIdwB/pAA9GADmDAP+A/vvvABgQEAAAAAAAAAAAsHDx2y/vP3Ny8r3wD/lLOk/989+///7D47//YZpxBvEvAOHEADmDAP8C/r//ICAQEAAAAAAAAAEA",
+    "counts": {
+     "lod0": 680,
+     "lod1": 518,
+     "lod2": 453
+    }
+   },
+   "thumbnail": "sg_bottom_003_navy/thumbnail.webp?v=191b1fa92583",
+   "sku": null,
+   "shopifyProductId": null,
+   "shopifyVariantId": null,
+   "available": true,
+   "default": false,
+   "sortOrder": 30,
+   "bytes": {
+    "lod0": 827884,
+    "lod1": 302864,
+    "lod2": 266600
+   },
+   "triangles": {
+    "lod0": 7592,
+    "lod1": 2336,
+    "lod2": 1167
+   }
+  },
+  {
+   "id": "sg_shoes_001",
+   "name": null,
+   "label": "Shoes 001",
+   "slot": "shoes",
+   "asset": "sg_shoes_001/manifest.json",
+   "lod0": "sg_shoes_001/sg_shoes_001_lod0.glb?v=f6c20b418e58",
+   "lod1": "sg_shoes_001/sg_shoes_001_lod1.glb?v=020c183aa709",
+   "lod2": "sg_shoes_001/sg_shoes_001_lod2.glb?v=27d66b291896",
+   "bodyMask": {
+    "encoding": "bitset-base64",
+    "regionCount": 2208,
+    "lod0": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////zDgRAYPH//+M////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////bigRAYPH//9i////",
+    "lod1": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8A//vvzzgxAYPH//+M////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8A/7//5ygZAcPH//9i////",
+    "lod2": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+A/vvvCBgxA4PH//6M/f//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8C/r//JCAZgcPH//5if///",
+    "counts": {
+     "lod0": 202,
+     "lod1": 189,
+     "lod2": 176
+    }
+   },
+   "thumbnail": "sg_shoes_001/thumbnail.webp?v=0e3080e12394",
+   "sku": null,
+   "shopifyProductId": null,
+   "shopifyVariantId": null,
+   "available": true,
+   "default": true,
+   "sortOrder": 10,
+   "bytes": {
+    "lod0": 676264,
+    "lod1": 634980,
+    "lod2": 595912
+   },
+   "triangles": {
+    "lod0": 4236,
+    "lod1": 3064,
+    "lod2": 1532
+   }
+  }
+ ]
+}

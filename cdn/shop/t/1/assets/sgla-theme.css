@@ -1,0 +1,118 @@
+/*
+ * The theme's own styles, on top of the storefront's (sgla-estate.css: reset.css, app.css and the estate's experience.css,
+ * bundled by tools/build_theme.mjs): Shopify's section wrappers, and the few pages the storefront draws differently.
+ */
+
+/* Shopify wraps every section in a div: the header, drawers and footer wrappers are not full-height page blocks */
+body.sgla > div.shopify-section,
+body.sgla > .shopify-section-group-header-group,
+body.sgla > .shopify-section-group-footer-group {
+  min-height: 0;
+}
+
+/* the estate is the whole home page, edge to edge, as on the storefront (.home) */
+body > main > .sgla-estate-section {
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.sgla-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+  color: var(--muted);
+}
+
+.sgla-form {
+  display: grid;
+  max-width: 28rem;
+  gap: 0.5rem;
+  margin-block: 1.5rem;
+}
+
+.sgla-form label {
+  margin-top: 0.5rem;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+}
+
+.sgla-form input,
+.sgla-form select {
+  min-height: 44px;
+  padding: 0 0.875rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface-raised);
+  color: var(--text);
+  font: inherit;
+}
+
+.sgla-form .button {
+  margin-top: 1rem;
+  justify-self: start;
+}
+
+.sgla-account details {
+  margin-top: 2rem;
+}
+
+.sgla-account summary {
+  cursor: pointer;
+}
+
+.sgla-orders {
+  display: grid;
+  gap: 0.75rem;
+  padding: 0;
+  list-style: none;
+}
+
+.sgla-address {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.sgla-password {
+  display: grid;
+  min-height: 100dvh;
+  place-content: center;
+  text-align: center;
+}
+
+.sgla-password .sgla-form {
+  margin-inline: auto;
+}
+
+.predictive-search-result ul {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.predictive-search-result a {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.predictive-search-result img {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+
+.product-form [data-sgla-add] {
+  width: 100%;
+  margin-top: 1.25rem;
+}
+
+.cart-line-quantity {
+  margin: 0;
+}

@@ -1,0 +1,97 @@
+{
+ "schema": "sg-cinematic/1",
+ "status": "preview",
+ "generated": "2026-10-28T08:47:07-0400",
+ "landscape": {
+  "src": "route_16x9.mp4?v=3eb0cfad54ba",
+  "type": "video/mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60.0,
+  "frames": 501,
+  "durationSeconds": 8.35,
+  "firstFrame": "route_16x9_first.jpg?v=ca9aff6e72b6",
+  "lastFrame": "route_16x9_last.jpg?v=2ce61e804788",
+  "bytes": 7484379,
+  "plate": {
+   "src": "plate_16x9.jpg?v=7c4a0e04a1a3",
+   "width": 2304,
+   "height": 1296,
+   "bytes": 552347,
+   "sources": [
+    {
+     "src": "plate_16x9_1920.jpg?v=36d2912b81a0",
+     "width": 1920,
+     "height": 1080,
+     "bytes": 399954
+    },
+    {
+     "src": "plate_16x9.jpg?v=7c4a0e04a1a3",
+     "width": 2304,
+     "height": 1296,
+     "bytes": 552347
+    }
+   ]
+  }
+ },
+ "portrait": {
+  "src": "route_9x16.mp4?v=17109187bc06",
+  "type": "video/mp4",
+  "width": 1440,
+  "height": 2560,
+  "fps": 60.0,
+  "frames": 501,
+  "durationSeconds": 8.35,
+  "firstFrame": "route_9x16_first.jpg?v=63566cc6920a",
+  "lastFrame": "route_9x16_last.jpg?v=f0408b16a241",
+  "bytes": 5412081,
+  "sources": [
+   {
+    "src": "route_9x16_1080.mp4?v=b56cff2e9e07",
+    "width": 1080,
+    "height": 1920,
+    "bytes": 5114657
+   },
+   {
+    "src": "route_9x16.mp4?v=17109187bc06",
+    "width": 1440,
+    "height": 2560,
+    "bytes": 5412081
+   }
+  ],
+  "plate": {
+   "src": "plate_9x16.jpg?v=abc6528e7ea4",
+   "width": 2160,
+   "height": 3840,
+   "bytes": 1154981,
+   "sources": [
+    {
+     "src": "plate_9x16_1080.jpg?v=d229f5b23547",
+     "width": 1080,
+     "height": 1920,
+     "bytes": 360734
+    },
+    {
+     "src": "plate_9x16_1440.jpg?v=33504342b25c",
+     "width": 1440,
+     "height": 2560,
+     "bytes": 591791
+    },
+    {
+     "src": "plate_9x16.jpg?v=abc6528e7ea4",
+     "width": 2160,
+     "height": 3840,
+     "bytes": 1154981
+    }
+   ]
+  }
+ },
+ "character": {
+  "outfit": {
+   "top": "sg_top_001_white",
+   "bottom": "sg_bottom_001_black",
+   "shoes": "sg_shoes_001"
+  },
+  "fromSeconds": 4.783
+ }
+}

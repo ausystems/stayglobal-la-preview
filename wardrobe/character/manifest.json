@@ -1,0 +1,200 @@
+{
+ "schema": "sg-character-package/1",
+ "id": "sg_character_base",
+ "skeleton": {
+  "id": "sg_skeleton_v1",
+  "jointCount": 53,
+  "jointNamesHash": "939a67368eab90aa9593f96dd6e41ec7fb638f236d4c704a750de1424e90e205",
+  "joints": [
+   "Root",
+   "pelvis",
+   "spine_01",
+   "spine_02",
+   "spine_03",
+   "clavicle_l",
+   "upperarm_l",
+   "lowerarm_l",
+   "hand_l",
+   "index_01_l",
+   "index_02_l",
+   "index_03_l",
+   "middle_01_l",
+   "middle_02_l",
+   "middle_03_l",
+   "pinky_01_l",
+   "pinky_02_l",
+   "pinky_03_l",
+   "ring_01_l",
+   "ring_02_l",
+   "ring_03_l",
+   "thumb_01_l",
+   "thumb_02_l",
+   "thumb_03_l",
+   "clavicle_r",
+   "upperarm_r",
+   "lowerarm_r",
+   "hand_r",
+   "index_01_r",
+   "index_02_r",
+   "index_03_r",
+   "middle_01_r",
+   "middle_02_r",
+   "middle_03_r",
+   "pinky_01_r",
+   "pinky_02_r",
+   "pinky_03_r",
+   "ring_01_r",
+   "ring_02_r",
+   "ring_03_r",
+   "thumb_01_r",
+   "thumb_02_r",
+   "thumb_03_r",
+   "neck_01",
+   "head",
+   "thigh_l",
+   "calf_l",
+   "foot_l",
+   "ball_l",
+   "thigh_r",
+   "calf_r",
+   "foot_r",
+   "ball_r"
+  ]
+ },
+ "body": {
+  "maskAttribute": "_SG_REGION",
+  "regionCount": 2208,
+  "regionTableHash": "6622a4c1c98dd750d6e7304bd077910e55c5d49145d89768630a42559e4bda35",
+  "maskRule": "hide a body triangle when all three vertices carry a region id listed in the sg_hides_body_regions of an equipped garment",
+  "bodyNode": "SG_BODY"
+ },
+ "lods": {
+  "lod0": {
+   "file": "sg_character_base_lod0.glb",
+   "bytes": 17777132,
+   "sha256": "98043bbd50460a13da576d75eb4cbcf11130fbff35a614ed0745e5d60462c82b",
+   "triangles": 109964,
+   "maxTexturePx": 4096,
+   "pngBytes": 30462256,
+   "textures": "ktx2-uastc",
+   "geometry": "meshopt (lossless)"
+  },
+  "lod1": {
+   "file": "sg_character_base_lod1.glb",
+   "bytes": 6327080,
+   "sha256": "b466ac62a2335ea0b3ae425246598628fe8f9ca9b0dd8d4d50453a95be28c711",
+   "triangles": 29786,
+   "maxTexturePx": 2048,
+   "texturePx": {
+    "sg_body_normal_4k": 1024,
+    "sg_body_orm_2k": 1024,
+    "sg_body_basecolor_2k": 2048,
+    "sg_eyebrows_normal_512": 512,
+    "sg_eyebrows_basecolor_512": 512,
+    "sg_eyelashes_basecolor_512": 512,
+    "sg_eyes_basecolor_1k": 1024,
+    "sg_hair_final_basecolor_2k": 2048,
+    "sg_teeth_basecolor_512": 512,
+    "sg_tongue_basecolor_256": 256
+   },
+   "textureCap": {
+    "px": 2048,
+    "tool": "gltf-transform resize (Lanczos)",
+    "dataTextures": {
+     "px": 1024,
+     "patterns": [
+      "*_normal_*",
+      "*_orm_*"
+     ]
+    }
+   },
+   "pngBytes": 11489716,
+   "textures": "ktx2-uastc",
+   "geometry": "meshopt (lossless)"
+  },
+  "lod2": {
+   "file": "sg_character_base_lod2.glb",
+   "bytes": 3321416,
+   "sha256": "71f4d9f8620f38c60a6b624a50864b99ca5925b9e8a2a2c1f5273ac82fc01fce",
+   "triangles": 16367,
+   "maxTexturePx": 1024,
+   "texturePx": {
+    "sg_body_normal_4k": 1024,
+    "sg_body_orm_2k": 1024,
+    "sg_body_basecolor_2k": 1024,
+    "sg_eyebrows_normal_512": 512,
+    "sg_eyebrows_basecolor_512": 512,
+    "sg_eyelashes_basecolor_512": 512,
+    "sg_eyes_basecolor_1k": 1024,
+    "sg_hair_final_basecolor_2k": 1024,
+    "sg_teeth_basecolor_512": 512,
+    "sg_tongue_basecolor_256": 256
+   },
+   "textureCap": {
+    "px": 1024,
+    "tool": "gltf-transform resize (Lanczos)"
+   },
+   "pngBytes": 5506576,
+   "textures": "ktx2-uastc",
+   "geometry": "meshopt (lossless)"
+  }
+ },
+ "trianglesByPart": {
+  "lod0": {
+   "SG_BODY": 100998,
+   "SG_EYES": 2266,
+   "SG_TEETH": 4316,
+   "SG_TONGUE": 198,
+   "SG_EYEBROWS": 768,
+   "SG_EYELASHES": 368,
+   "SG_HAIR_FINAL": 1050
+  },
+  "lod1": {
+   "SG_BODY": 25542,
+   "SG_EYES": 712,
+   "SG_TEETH": 1724,
+   "SG_TONGUE": 198,
+   "SG_EYEBROWS": 192,
+   "SG_EYELASHES": 368,
+   "SG_HAIR_FINAL": 1050
+  },
+  "lod2": {
+   "SG_BODY": 12769,
+   "SG_EYES": 712,
+   "SG_TEETH": 1078,
+   "SG_TONGUE": 198,
+   "SG_EYEBROWS": 192,
+   "SG_EYELASHES": 368,
+   "SG_HAIR_FINAL": 1050
+  }
+ },
+ "bounds": {
+  "min": [
+   -0.6083,
+   0.0256,
+   -0.098
+  ],
+  "max": [
+   0.6083,
+   1.8792,
+   0.3925
+  ]
+ },
+ "presentation": "joint transforms carry the neutral presentation pose; inverse bind matrices the A-pose rest",
+ "units": "metres, +Y up",
+ "source": {
+  "web_blend": "StayGlobalLA_CHARACTER_WEB.blend",
+  "web_sha256": "5d5b0ea06421b50a07d7e129d92cbf64a418ebf9de4cf504935efbd9092f2230"
+ },
+ "built": "2026-10-18T00:22:51",
+ "textureEncoding": {
+  "format": "KTX2 (KHR_texture_basisu)",
+  "colour_and_normal": "UASTC level 2, RDO lambda 0.5, zstd 18",
+  "orm": "UASTC level 2, RDO lambda 1.0, zstd 18",
+  "mipmaps": "generated (Lanczos3 via ktx create)"
+ },
+ "geometryEncoding": {
+  "format": "EXT_meshopt_compression (meshoptimizer)",
+  "lossless": true
+ }
+}
